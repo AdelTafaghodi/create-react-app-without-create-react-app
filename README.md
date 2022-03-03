@@ -1,13 +1,19 @@
 # create react app without create-react-app
 
 1.
- ``` npm init ```
+```
+npm init
+```
  
 2.
- ``` npm install react react-dom ```
+ ```
+ npm install react react-dom
+ ```
  
 3.
- ``` npm install --save-dev webpack webpack-cli webpack-dev-server ```
+ ```
+ npm install --save-dev webpack webpack-cli webpack-dev-server
+ ```
  
 4.
  ``` 
