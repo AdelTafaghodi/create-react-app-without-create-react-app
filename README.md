@@ -1,4 +1,4 @@
-# create react app without create react app
+# create react app without create-react-app
 
 1.
  ``` npm init ```
