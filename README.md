@@ -29,12 +29,13 @@ npm init
             ]
 }
  ```
-
+ 
 6.
 ```
 npm install --save-dev html-webpack-plugin style-loader css-loader file-loader
 ```
-7.Create a file webpack.config.js and copy the code below:
+
+7. Create a file webpack.config.js and copy the code below:
 ```
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
