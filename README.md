@@ -21,7 +21,7 @@ npm init
  ```
  
 5. Create a file .babelrc and copy the code below : 
-```
+```js
 {
  "presets": [
         "@babel/preset-react",
@@ -36,7 +36,7 @@ npm install --save-dev html-webpack-plugin style-loader css-loader file-loader
 ```
 
 7. Create a file webpack.config.js and copy the code below:
-```
+```js
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 
@@ -76,7 +76,7 @@ module.exports = {
 ```
 
 8. Create a folder “src” and inside that create a file “App.js” :
-```
+```js
 import React from "react";
 
 const App = () => (
@@ -89,7 +89,7 @@ export default App;
 ```
 
 9.Create a file “index.js” that will be the entry point of our code:
-```
+```js
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
@@ -98,7 +98,7 @@ ReactDOM.render(<App/>,document.querySelector("#root"));
 ```
 
 10.Create another file “index.html” :
-```
+```html
 <html lang="en">
 
 <head>
@@ -116,7 +116,7 @@ ReactDOM.render(<App/>,document.querySelector("#root"));
 ```
 
 11.In your package.json write the following lines of code in place of the script tag:
-```
+```js
 "scripts": {
     "start": "webpack serve  --hot --open",
     "build": "webpack --config webpack.config.js --mode production"
